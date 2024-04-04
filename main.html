@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>萬順茶餐廳外賣</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+        <p>萬順茶餐廳外賣服務</p>
+    </div>
+	<div>
+	<p style="color:red">通知：由於疫情關係，本店面對人手不足問題，外賣時間將會延遲大約10分鐘，敬請原諒。</p>
+	</div>
+	<div>
+		<p><a href="customerService.html">客戶服務</a> <a href="login.html">登出</a></p>
+	</div>
+    <div class="food">
+        <div class="rice">
+            <p class="category">飯</p>
+            <p>揚州炒飯 <span id="money">$50 
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity">
+                <span class="requirement">多飯</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+                <span class="requirement">少飯</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+            </span></p>
+            <p>豆腐火腩飯 <font color="red">(罄)</font> <span id="money">$50
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity" disabled="true">
+                <span class="requirement" disabled="true">多飯</span>
+                <input type="number" min="0" placeholder="0" id="quantity" disabled="true">
+                <span class="requirement" disabled="true">少飯</span>
+                <input type="number" min="0" placeholder="0" id="quantity" disabled="true">
+            </span></p>
+            <p>栗米肉粒飯 <span id="money">$50 
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity">
+                <span class="requirement">多飯</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+                <span class="requirement">少飯</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+            </span></p>
+        </div>
+        <div class="noodle">
+            <p class="category">粉麵</p>
+            <p>乾炒牛河 <span id="money">$40 
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity">
+            </span></p>
+            <p>餐蛋麵 <span id="money">$40 
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity">
+            </span></p>
+            <p>雪菜肉絲米粉 <span id="money">$40 
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity">
+            </span></p>
+        </div>
+        <div class="others">
+            <p class="category">下午茶餐</p>
+            <p>菠蘿油 <span id="money">$30 
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity">
+            </span></p>
+            <p>公司三文治 <span id="money">$30 
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity">
+            </span></p>
+            <p>雞扒沙律 <span id="money">$30 
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity">
+            </span></p>
+        </div>
+        <div class="drink">
+            <p class="category">飲品</p>
+            <p>熱檸茶 <span id="money">$5
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity">
+                <span class="requirement">少甜</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+                <span class="requirement">走甜</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+            </span></p>
+            <p>熱奶茶 <span id="money">$5
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity">
+                <span class="requirement">少奶</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+                <span class="requirement">多奶</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+            </span></p>
+            <p>熱咖啡 <span id="money">$5
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity">
+                <span class="requirement">少奶</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+                <span class="requirement">多奶</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+            </span></p>
+            <p>凍檸茶 <span id="money">$5
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity">
+                <span class="requirement">少甜</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+                <span class="requirement">走甜</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+            </span></p>
+            <p>凍奶茶 <span id="money">$5
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity">
+                <span class="requirement">少奶</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+                <span class="requirement">多奶</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+            </span></p>
+            <p>凍咖啡 <span id="money">$5
+                <input type="number" min="0" placeholder="0" id="quantity" name="quantity">
+                <span class="requirement">少奶</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+                <span class="requirement">多奶</span>
+                <input type="number" min="0" placeholder="0" id="quantity">
+            </span></p>
+        </div>
+    </div>
+    <div class="submit">
+        <input type=button onClick="location.href='submit.html'" value='送出訂單'>
+    </div>
+</body>
+</html>

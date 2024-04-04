@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>萬順茶餐廳外賣</title>
+    <link rel="stylesheet" href="submit.css">
+	<style>
+		textarea {
+			resize: none;
+			font-size: 16px;
+		}
+	</style>
+</head>
+<body>
+    <div class="header">
+        <p>萬順茶餐廳外賣服務</p>
+    </div>
+    <div>
+        <p>問題回報</p>
+        <p>您的電話號碼：<input type="text" id="location" name="location"></p>
+		<p>
+			<label for="from">您的訊息:</label>
+		<br />
+			<textarea id="mes1" rows="10" cols="50" maxlength="200"></textarea>
+		<br />
+			<button onclick="location.href='problemSent.html'">傳送</button>
+		</p>
+    </div>
+	<div class="back">
+        <input id="btn1" type=button onClick="location.href='customerService.html'" value='上一頁'>
+    </div>
+</body>
+</html>

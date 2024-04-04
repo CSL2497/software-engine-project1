@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(255, 255, 122);
+    font-size: 16px;
+    font-weight: bold;
+    display: block
+}
+
+.header {
+    font-size: 2em;
+    text-align: center;
+    background-color: greenyellow;
+    border-style: solid;
+}
+
+#money {
+    color: red;
+    position: relative;
+    left: 2em;
+    text-align: right;
+}
+
+.food {
+    border-style: dotted;
+    padding: 1em;
+    margin: 1em;
+    text-align: right;
+}
+
+.rice {
+    width: 43%;
+    height: fit-content;
+    padding: 1em;
+    margin: 1em 1em 1em 1em;
+    text-align: right;
+}
+
+.noodle {
+    width: 25%;
+    height: fit-content;
+    padding: 1em;
+    margin: 1em 1em 1em 1em;
+}
+
+.others {
+    width: 25%;
+    height: fit-content;
+    padding: 1em;
+    margin: 1em 1em 1em 1em;
+}
+
+.drink {
+    width: 43%;
+    height: fit-content;
+    padding: 1em;
+    margin: 1em 1em 1em 1em;
+}
+
+.category {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#quantity {
+    text-align: right;
+    position: relative;
+    width: 3em;
+}
+
+.requirement {
+    color: black;
+    text-align: inherit;
+    position: relative;
+    padding: 1em;
+}
